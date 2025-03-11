@@ -162,6 +162,88 @@ install_kde_plasma() {
     reboot
 }
 
+# Function to install other DEs
+install_other_des() {
+    echo "Installing other DEs..."
+    sudo apt install -y gnome-shell
+    sudo apt install -y cinnamon-desktop-environment
+    sudo apt install -y xfce4
+    sudo apt install -y mate-desktop-environment
+    sudo apt install -y lxde
+    sudo apt install -y kde-plasma-desktop
+    sudo apt install -y enlightenment
+    sudo apt install -y lxqt
+    sudo apt install -y sugar-desktop
+    sudo apt install -y trinity-desktop-environment
+    echo "Other DEs installed."
+}
+
+# Function to install libraries for development
+install_dev_libraries() {
+    echo "Installing libraries for development..."
+    sudo apt install -y libgtk-3-dev
+    sudo apt install -y libqt5-dev
+    sudo apt install -y libkf5-dev
+    sudo apt install -y libgnome-dev
+    sudo apt install -y libwebkitgtk-dev
+    sudo apt install -y libjavascriptcore-dev
+    sudo apt install -y libdbus-1-dev
+    sudo apt install -y libpulse-dev
+    sudo apt install -y libalsa-dev
+    sudo apt install -y libgstreamer1.0-dev
+    sudo apt install -y libgstreamer-plugins-base1.0-dev
+    sudo apt install -y libgstreamer-plugins-good1.0-dev
+    sudo apt install -y libgstreamer-plugins-ugly1.0-dev
+    echo "Libraries for development installed."
+}
+
+# Function to install games
+install_games() {
+    echo "Installing games..."
+    sudo apt install -y steam
+    sudo apt install -y dosbox
+    sudo apt install -y scummvm
+    sudo apt install -y wine-stable
+    sudo apt install -y playonlinux
+    sudo apt install -y lxdm
+    sudo apt install -y gnome-games
+    sudo apt install -y kdegames
+    sudo apt install -y plasma-widgets-addons
+    echo "Games installed."
+}
+
+# Function to install launchers
+install_launchers() {
+    echo "Installing launchers..."
+    sudo apt install -y gnome-launcher
+    sudo apt install -y kde-launcher
+    sudo apt install -y xfce4-launcher
+    sudo apt install -y mate-launcher
+    sudo apt install -y lxlauncher
+    echo "Launchers installed."
+}
+
+# Function to install stores
+install_stores() {
+    echo "Installing stores..."
+    sudo apt install -y gnome-software
+    sudo apt install -y snap-store
+    sudo apt install -y flatpak
+    sudo apt install -y appstream
+    sudo apt install -y appstream-index
+    sudo apt install -y software-center
+    echo "Stores installed."
+}
+
+# Function to install VM programs
+install_vm_programs() {
+    echo "Installing VM programs..."
+    sudo apt install -y virt-manager
+    sudo apt install -y virtualbox
+    sudo apt install -y qemu
+    echo "VM programs installed."
+}
+
 # Function to create and run app.py
 create_and_run_app() {
     echo "Creating app.py..."
@@ -246,6 +328,24 @@ change_password
 # Install KDE Plasma
 install_kde_plasma
 
+# Install other DEs
+install_other_des
+
+# Install libraries for development
+install_dev_libraries
+
+# Install games
+install_games
+
+# Install launchers
+install_launchers
+
+# Install stores
+install_stores
+
+# Install VM programs
+install_vm_programs
+
 # Create and run app.py
 create_and_run_app
 
@@ -255,4 +355,4 @@ sudo apt update
 sudo apt upgrade -y
 
 # Completion
-echo "NeoLinux 1.0 installation complete."
+echo "NeoLinux 1.1 installation complete."
