@@ -62,6 +62,6 @@ sudo ./setup.sh
 ## ❓ Поддержка
 Проблемы и вопросы:  
 - [GitHub Issues](https://github.com/K2254IVV/NeoLinux/issues)  
-- Чат в Telegram: [@NeoLinuxSupport](https://t.me/NeoLinuxSupport)  
+- Чат в Telegram: [NeoLinuxSupport TG](https://t.me/+6boWd1M51tRlNThi)
 
 ---
