@@ -1,6 +1,4 @@
 
-
-```markdown
 **NeoLinux** — это удобный Linux-дистрибутив на основе Arch Linux с предустановленным KDE Plasma, популярным софтом и темами под Windows/macOS.  
 
 ![NeoLinux base](/res/arch-linux.png)
