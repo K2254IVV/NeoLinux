@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="/res/neolinux-logo.png" alt="NeoLinux Logo" width="200">
+  <img src="/res/neolinux-logo.svg" alt="NeoLinux Logo" width="200">
 </p>
 
 <h1 align="center">NeoLinux</h1>
