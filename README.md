@@ -1,5 +1,3 @@
-# NeoLinux Installer
-
 <p align="center">
   <img src="/res/neolinux-logo.svg" alt="NeoLinux Logo" width="200">
 </p>
