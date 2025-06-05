@@ -29,16 +29,12 @@
 
 ### Для Arch Linux:
 ```bash
-git clone https://github.com/K2254IVV/NeoLinux.git
-cd NeoLinux/arch
-sudo ./setup.sh
+sudo curl -sSL https://raw.githubusercontent.com/K2254IVV/NeoLinux/main/arch/setup.sh | sudo bash
 ```
 
 ### Для Ubuntu:
 ```bash
-git clone https://github.com/K2254IVV/NeoLinux.git
-cd NeoLinux/ubuntu
-sudo ./setup.sh
+sudo curl -sSL https://raw.githubusercontent.com/K2254IVV/NeoLinux/main/ubuntu/setup.sh | sudo bash
 ```
 
 ---
